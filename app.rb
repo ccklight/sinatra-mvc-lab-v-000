@@ -14,8 +14,6 @@ class App < Sinatra::Base
   end
 
 
-  end
-
 end
 # *************
 # it "displays the pig latinized phrase upon form submission" do

@@ -11,7 +11,7 @@ class PigLatinizer
       "#{text}way"
 
     else
-      parts = text.split(/([aeiouAEIOU].*)/)
+      parts = text.split(/([aeiou].*)/)
       "#{parts[1]}#{parts[0]}ay"
           end
   end

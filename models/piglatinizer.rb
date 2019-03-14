@@ -7,7 +7,7 @@ class PigLatinizer
 
 
   def translate_word(text)
-    if/^[aeiouAEIOU]/i.match(text)
+    if/^[aeiou]/i.match(text)
       "#{text}way"
 
     else
